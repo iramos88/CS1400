@@ -27,13 +27,18 @@ tiene_multas = input("¿Tienes multas de tránsito sin pagar? (si/no): ").strip(
 asistio_clases = (asistencia == "si")
 multas_pendientes = (tiene_multas == "si")
 
-if test >= 80: and asistio_clasesand and not multas_pendientes
+if test >= 80 and asistio_clases and not multas_pendientes:
   print(" fantastico Licencia aprobada, obtuviste un puntaje alto aprobaste podrar obtner tu licencia ")
-elif test >= 70:
- print("Aprobaste el test obtendras tu licencia")
-elif test >= 50:
-  print("Desaprobaste el test no alcansaste al puntaje minimo intentalo en otra oportunidad")
+
+elif test >= 70 or (asistio_clases and not multas_pendientes):  
+  print("Aprobaste el test obtendras tu licencia")
+elif not (asistio_clases and multas_pendientes):
+  print("Denegado: no asististe a clases y tambien tienes multas pendientes, no podras conducir")
 else:
-  print ("puntaje muy bajo, tiene otra oportunidad para dar el test hasta la proxima")  
+  print ("No cumples con el puntaje minimo ") 
+#elif test >= 50:
+ # print("Desaprobaste el test no alcansaste al puntaje minimo intentalo en otra oportunidad")
+
+ 
 
 
