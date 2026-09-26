@@ -21,12 +21,12 @@ test = int (input("que puntaje obtuviste? (0 - 100): "))
 #int(input (" que porcentaje obtuvite "))
 
 if test >= 80:
-  print(" fantastico obtuviste un puntaje alto aprobaste ")
-elif test <= 70:
- print("Aprobaste el test ")
+  print(" fantastico obtuviste un puntaje alto aprobaste podrar obtner tu licencia ")
+elif test >= 70:
+ print("Aprobaste el test obtendras tu licencia")
 elif test >= 50:
-  print("Desaprobaste el test no alcansaste al puntaje minimo")
+  print("Desaprobaste el test no alcansaste al puntaje minimo intentalo en otra oportunidad")
 else:
-  print ("puntaje muy bajo, tiene otra oportunidad para dar el test")  
+  print ("puntaje muy bajo, tiene otra oportunidad para dar el test hasta la proxima")  
 
 
