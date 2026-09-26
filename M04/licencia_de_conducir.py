@@ -18,10 +18,17 @@ Salida clara: Muestra un mensaje personalizado indicando si la persona puede
 #Isaac Ramos
 #Evaluacion de examen teorico para obtner licencia de conducir
 test = int (input("que puntaje obtuviste? (0 - 100): "))
+asistencia = input("¿Asististe a las clases de manejo? (si/no): ").strip().lower()
+tiene_multas = input("¿Tienes multas de tránsito sin pagar? (si/no): ").strip().lower()
 #int(input (" que porcentaje obtuvite "))
 
-if test >= 80:
-  print(" fantastico obtuviste un puntaje alto aprobaste podrar obtner tu licencia ")
+#convertimos las respuestas a booleanos
+
+asistio_clases = (asistencia == "si")
+multas_pendientes = (tiene_multas == "si")
+
+if test >= 80: and asistio_clasesand and not multas_pendientes
+  print(" fantastico Licencia aprobada, obtuviste un puntaje alto aprobaste podrar obtner tu licencia ")
 elif test >= 70:
  print("Aprobaste el test obtendras tu licencia")
 elif test >= 50:
