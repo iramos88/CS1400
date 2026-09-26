@@ -17,14 +17,16 @@ Salida clara: Muestra un mensaje personalizado indicando si la persona puede
 """
 #Isaac Ramos
 #Evaluacion de examen teorico para obtner licencia de conducir
-test = int (input("que puntaje tienes"))
+test = int (input("que puntaje obtuviste? (0 - 100): "))
 #int(input (" que porcentaje obtuvite "))
 
 if test >= 80:
-  print("aprobaste el test teorico ")
+  print(" fantastico obtuviste un puntaje alto aprobaste ")
 elif test <= 70:
- print("tienes otra oportunidad para dar el test" )
+ print("Aprobaste el test ")
 elif test >= 50:
-  print("Desaprobaste el test")
+  print("Desaprobaste el test no alcansaste al puntaje minimo")
+else:
+  print ("puntaje muy bajo, tiene otra oportunidad para dar el test")  
 
 
