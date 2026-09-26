@@ -25,10 +25,3 @@ elif test <= 79:
  print("desaprobaste" )
 
 
-
-"""
-
-
-
-
-"""
