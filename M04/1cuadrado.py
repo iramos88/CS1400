@@ -1,9 +1,8 @@
 """
-NOMBRE: [Tu Nombre]
+NOMBRE: [Isaac Ramos]
 MODULO 4 - PROYECTO - TAREA 1
 Un programa para encontrar el cuadrado de un número y evaluar condiciones.
 """
-
 # Definir el número base - Hard Coded
 num = 4
 
