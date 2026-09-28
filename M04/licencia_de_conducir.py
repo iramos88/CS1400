@@ -17,6 +17,7 @@ Salida clara: Muestra un mensaje personalizado indicando si la persona puede
 """
 #Isaac Ramos
 #Evaluacion de examen teorico para obtner licencia de conducir
+"""
 test = int (input("que puntaje obtuviste? (0 - 100): "))
 asistencia = input("¿Asististe a las clases de manejo? (si/no): ").strip().lower()
 tiene_multas = input("¿Tienes multas de tránsito sin pagar? (si/no): ").strip().lower()
@@ -38,7 +39,7 @@ else:
   print ("No cumples con el puntaje minimo ") 
 #elif test >= 50:
  # print("Desaprobaste el test no alcansaste al puntaje minimo intentalo en otra oportunidad")
-
+"""
  
 
 
