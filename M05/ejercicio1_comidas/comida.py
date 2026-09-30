@@ -18,7 +18,8 @@ print = ("Tallirenes verdes")
 
 # TODO #3:
 # Guarda lo que el usuario escribió en una variable llamada `comida`.
-
+comida = input("¿que plato deseas?")
+print(comida)
 # TODO #4:
 # Convierte lo ingresado a minúsculas para asegurar la comparación correcta.
 
