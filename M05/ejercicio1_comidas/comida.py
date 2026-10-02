@@ -8,16 +8,18 @@ Al final, muestra un mensaje explicando de dónde es originaria esa comida.
 # Imprime un mensaje de bienvenida al programa de comidas de Latinoamérica.
 print("Bienvenido al programa de comidas de Latinoamérica.")
 # TODO #2:
+#Declarando las 5 variables con 5 platos
 # Muestra al usuario una lista de al menos 5 opciones de comidas para elegir.
 print("Menu")
 print("Arroz $15")
-print("Lomo Saltado $18")
+print("Lomo $18")
 print("Ceviche $20")
 print("Aji de Gallina $22")
 print("Tallirenes verdes $21")
 
 # TODO #3:
 # Guarda lo que el usuario escribió en una variable llamada `comida`.
+#Agrgando la variable comida con la funcion Lower
 comida = input("¿que plato deseas?").lower()
 #print(comida)
 # TODO #4:
@@ -26,12 +28,20 @@ comida = input("¿que plato deseas?").lower()
 # TODO #5:
 # Usa una estructura if / elif / else para verificar la comida elegida.
 # Imprime un mensaje con el país de origen para cada comida.
+#Agregando las condifiones if, elif, 
 
-if comida == "Arroz":
+if comida == "arroz con pollo":
     print("El mejor plato del dia.")
+elif comida == "lomo saltado":
+    print("Una buena decision.")
+elif comida == "ceviche":
+    print("El mejor del mundo.") 
+elif comida == "aji de gallina":
+    print("excelente.")
+elif comida == "tallarines verdes":
+    print("Great.")
 else:
-    print("Dentro de else")
-
+    print("No Tenemos ese plato")
 
 ## Ejemplo de salida esperada:
 """
