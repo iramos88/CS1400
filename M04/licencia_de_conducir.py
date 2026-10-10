@@ -47,7 +47,8 @@ edad = int(input("Ingrese su edad: "))
 if edad < 18:
     print("Lo sentimos, tiene que ser mayor de 18 años para tramitar la licencia.")
 else:
-    # 2.Haremos la Solicitud del puntaje del examen teórico
+    # Haremos la Solicitud del puntaje del examen teórico
+    # Ingresaremos la variable puntaje examen que sera float, el float hara que el resultado sea entero o decimal
     puntaje_examen = float(input("Ingrese su puntaje en el examen teórico (0-100): "))
     
     # 3. Solicitar asistencia a clases (s/n)
