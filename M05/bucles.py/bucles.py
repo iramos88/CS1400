@@ -1,9 +1,7 @@
 #Isaac Ramos
-
 #Analiza el siguiente código para comprender la necesidad de los bucles.
 
 #Código 1:
-
 # Impresión manual repetitiva
 """
 print("Hola, estudiante")
