@@ -40,7 +40,7 @@ else:
 #elif test >= 50:
  # print("Desaprobaste el test no alcansaste al puntaje minimo intentalo en otra oportunidad")
 """
- #Isaac Ramos Eva
+ #Isaac Ramos
 # 1. Solicitar y validar la edad (mayor de 18 años)
 edad = int(input("Ingrese su edad: "))
 
