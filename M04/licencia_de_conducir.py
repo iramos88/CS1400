@@ -51,9 +51,11 @@ else:
     # Ingresaremos la variable puntaje examen que sera float, el float hara que el resultado sea entero o decimal
     puntaje_examen = float(input("Ingrese su puntaje en el examen teórico (0-100): "))
     
-    # 3. Solicitar asistencia a clases (s/n)
+    # Haremos la solicitud de asistencia a clases (s/n)
     asistio_input = input("¿Asistió a todas las clases obligatorias? (s/n): ").strip().lower()
     asistio_clases = True if asistio_input == 's' else False
+    # Strip Elimina todos los espacios en blanco (así como saltos de línea o tabulaciones) que estén al principio y al final de la cadena de texto.
+    # Lower Convierte todas las letras de la cadena a minúsculas.
 
     # 4. Solicitar multas pendientes (s/n)
     multas_input = input("¿Tiene multas de tránsito pendientes? (s/n): ").strip().lower()
