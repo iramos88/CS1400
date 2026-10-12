@@ -17,30 +17,7 @@ Salida clara: Muestra un mensaje personalizado indicando si la persona puede
 """
 #Isaac Ramos
 #Evaluacion de examen teorico para obtner licencia de conducir
-"""
-test = int (input("que puntaje obtuviste? (0 - 100): "))
-asistencia = input("¿Asististe a las clases de manejo? (si/no): ").strip().lower()
-tiene_multas = input("¿Tienes multas de tránsito sin pagar? (si/no): ").strip().lower()
-#int(input (" que porcentaje obtuvite "))
 
-#convertimos las respuestas a booleanos
-
-asistio_clases = (asistencia == "si")
-multas_pendientes = (tiene_multas == "si")
-
-if test >= 80 and asistio_clases and not multas_pendientes:
-  print(" fantastico Licencia aprobada, obtuviste un puntaje alto aprobaste podrar obtner tu licencia ")
-
-elif test >= 70 or (asistio_clases and not multas_pendientes):  
-  print("Aprobaste el test obtendras tu licencia")
-elif not (asistio_clases and multas_pendientes):
-  print("Denegado: no asististe a clases y tambien tienes multas pendientes, no podras conducir")
-else:
-  print ("No cumples con el puntaje minimo ") 
-#elif test >= 50:
- # print("Desaprobaste el test no alcansaste al puntaje minimo intentalo en otra oportunidad")
-"""
- #Isaac Ramos
 # 1. Solicitar y validar la edad (mayor de 18 años)
 edad = int(input("Ingrese su edad: "))
 
