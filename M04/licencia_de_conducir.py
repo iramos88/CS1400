@@ -44,18 +44,12 @@ else:
     # 5. Lógica de evaluación con if-elif-else
     if puntaje_examen < 70:
         print (" No aprobo el examen el puntaje es inferior a 70.")
-
     elif not asistio_clases:
-        print("No aprobono cumplio con la asistencia a clases obligatorias")
-    elif multas_pendientes       
-
-    """
-    if puntaje_examen < 70:
-        print("No aprueba el examen es inferior a 70.")
-    elif not asistio_clases:
-        print("No aprueba No cumplió con la asistencia a las clases.")
+        print("No aprobo no cumplio con la asistencia a clases obligatorias.")
     elif multas_pendientes:
-        print("No aprueba: Tiene multas de tránsito pendientes por resolver.")
+        print("No aprueba: tiene multas pendientes que pagar.")   
     else:
-        print("¡Felicidades! Cumple con todos los requisitos para obtener su licencia.")
-        """
+        print("Felicidades cumple con todos los requisitos para obtener su licencia.")      
+
+
+    
