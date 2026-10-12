@@ -51,5 +51,23 @@ else:
     else:
         print("Felicidades cumple con todos los requisitos para obtener su licencia.")      
 
+#¿Cuántos commits hiciste?
 
+#¿Qué método te pareció más fácil de usar para guardar y subir tus cambios a GitHub: los comandos en la terminal o la interfaz visual de Visual Studio Code? ¿Por qué?
+
+#¿Para qué sirve ejecutar el comando git status antes de empezar a trabajar y cómo te ayuda a saber qué archivos han sido modificados o están pendientes por guardar?
+
+#¿Por qué es fundamental descargar (git pull) los cambios más recientes del repositorio de la profesora antes de realizar y subir tus propias modificaciones al proyecto?
+
+#En tus propias palabras, ¿cuál es la diferencia entre hacer un fork de un repositorio en GitHub y clonar (clone) un repositorio a tu computadora?
+
+#¿Por qué es una buena práctica escribir mensajes claros y descriptivos en cada commit (por ejemplo: "Agregando mi nombre al proyecto de M4") en lugar de usar palabras vagas como "cambios" o "listo"?
+
+#¿Qué tipos de mensajes agregaste?
+
+#¿Cuál es tu sentencia preferida?
+
+#¿Cuándo entra el programa a la segunda sentencia de tu tarea?
+
+#¿Qué aprendiste del README.md en tu carpeta M04? No olvides los comentarios!
     
