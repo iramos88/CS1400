@@ -41,7 +41,7 @@ else:
 
     print("\n--- Resultado de la Evaluación ---")
 
-    # 5. Lógica de evaluación con if-elif-else
+    # 5. Ingresamos la Lógica de evaluación con if-elif-else
     if puntaje_examen < 70:
         print (" No aprobo el examen el puntaje es inferior a 70.")
     elif not asistio_clases:
