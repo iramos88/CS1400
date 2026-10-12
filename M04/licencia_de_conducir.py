@@ -66,10 +66,12 @@ else:
 #¿Por qué es una buena práctica escribir mensajes claros y descriptivos en cada commit (por ejemplo: "Agregando mi nombre al proyecto de M4") en lugar de usar palabras vagas como "cambios" o "listo"?
 # el poder escribir los mensajes nos aydudara a saber todos los cambios que se estan haciendo en el programa.
 #¿Qué tipos de mensajes agregaste?
-
+# se egrego las variables de examenes teoricos, por la validacion de licencia
+# se agrego estructuras como if/else
+# funciones de cadena de texti como strip() y lower()
 #¿Cuál es tu sentencia preferida?
-
+# Estoy aprendiendo estas sentencias, pero  me gustaria aprender bien la sentencia if, elif
 #¿Cuándo entra el programa a la segunda sentencia de tu tarea?
-
+# El programa entra a la segunda secuencia es cuandp la condicion de la primera sentencia (if) no se cumple, es decir cuando el resultado de falso.
 #¿Qué aprendiste del README.md en tu carpeta M04? No olvides los comentarios!
     
