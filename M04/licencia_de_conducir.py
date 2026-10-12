@@ -29,18 +29,27 @@ else:
     puntaje_examen = float(input("Ingrese su puntaje en el examen teórico (0-100): "))
     
     # Haremos la solicitud de asistencia a clases (s/n)
+
     asistio_input = input("¿Asistió a todas las clases obligatorias? (s/n): ").strip().lower()
     asistio_clases = True if asistio_input == 's' else False
     # Strip Elimina todos los espacios en blanco (así como saltos de línea o tabulaciones) que estén al principio y al final de la cadena de texto.
     # Lower Convierte todas las letras de la cadena a minúsculas.
 
-    # 4. Solicitar multas pendientes (s/n)
+    # 4. Solicitaremos las multas pendientes (s/n)
     multas_input = input("¿Tiene multas de tránsito pendientes? (s/n): ").strip().lower()
     multas_pendientes = True if multas_input == 's' else False
 
     print("\n--- Resultado de la Evaluación ---")
 
-    # 5. Lógica de evaluación con if-elif-else simplificada
+    # 5. Lógica de evaluación con if-elif-else
+    if puntaje_examen < 70:
+        print (" No aprobo el examen el puntaje es inferior a 70.")
+
+    elif not asistio_clases:
+        print("No aprobono cumplio con la asistencia a clases obligatorias")
+    elif multas_pendientes       
+
+    """
     if puntaje_examen < 70:
         print("No aprueba el examen es inferior a 70.")
     elif not asistio_clases:
@@ -49,3 +58,4 @@ else:
         print("No aprueba: Tiene multas de tránsito pendientes por resolver.")
     else:
         print("¡Felicidades! Cumple con todos los requisitos para obtener su licencia.")
+        """
