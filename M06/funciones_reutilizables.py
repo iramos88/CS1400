@@ -1,5 +1,3 @@
-#Isaac Ramos Funciones Reusables
-
 #Funciones Reutilizables
 #Isaac Ramos. 
 #Tarea M6
