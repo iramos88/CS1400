@@ -1,18 +1,17 @@
 """
-NOMBRE: [Tu Nombre]
+NOMBRE: [Isaac Ramos]
 MODULO 4 - PROYECTO - TAREA 1
 Un programa para encontrar el cuadrado de un número y evaluar condiciones.
 """
-
 # Definir el número base - Hard Coded
-num = 4
+num = int(input(6))
 
 # TODO Tarea 1: Crear una variable para almacenar el cuadrado (debe ser el numero base multiplicado por sí mismo)
 cuadrado = 0  # Reemplaza con tu código
 
 # Mostrar el resultado con un f-string 
 print(f"El cuadrado de {num} es: {cuadrado}")
-
+ 
 # Salida esperada:
 # El cuadrado de 4 es: 16
 
