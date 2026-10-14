@@ -24,7 +24,7 @@ print( num_salon["Murphy"])
 """
 
 import copy
-
+refugioOriginal = {"perro": 49, "gato": 38, "conejos": 14}
 animalesRefugiados = {"perro": 49, "gato": 38, "conejo": 14}
 refugioOriginal = animalesRefugiados
 animalesRefugiados['perro'] += 2
@@ -41,4 +41,4 @@ if animalesRefugiados ["perro"] > 50:
 if "raton" not in animalesRefugiados:
     print("No hay ratones en el refugio")
 
-    
+refugioOriginal = copy.deepcopy(refugioOriginal)
