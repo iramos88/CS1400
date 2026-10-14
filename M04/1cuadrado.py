@@ -5,9 +5,12 @@ Un programa para encontrar el cuadrado de un número y evaluar condiciones.
 """
 # Definir el número base - Hard Coded
 num = int(input(6))
+numero = float(input("ingrese un numero:"))
 
 # TODO Tarea 1: Crear una variable para almacenar el cuadrado (debe ser el numero base multiplicado por sí mismo)
 cuadrado = 0  # Reemplaza con tu código
+cuadrado = num * num
+print("cuadrado de",num,"es",cuadrado, end="")
 
 # Mostrar el resultado con un f-string 
 print(f"El cuadrado de {num} es: {cuadrado}")
