@@ -49,7 +49,6 @@ print(animalesRefugiados)
 
 # Ejemplo de conteo de palabras
 text = "sana sana curita de rana sana sana pomada de sapo sana sana hoy y manana manana y hoy"
-
 lst = text.split()
 plbList = dict()
 
@@ -76,4 +75,3 @@ for i in listaNotas:
 for i in notasDiccionario:
   print(i, notasDiccionario[i])
 
-  
