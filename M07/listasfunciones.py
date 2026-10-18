@@ -10,7 +10,7 @@ print(comidas[1])
 # Ejemplo de modificación:
 print(mensaje.upper())
 """
-
+"""
 playerNames = ["Adam", "Bethanie", "Carrie", "Doug", "Eddie"]
 playerNumbers = [5, 2, 6, 13, 0]
 
@@ -28,5 +28,6 @@ playerNames.insert(0, "Raven")
 
 print(playerNames)
 print(playerNumbers)
+"""
 
-
+#Contadores y Iteradores.
