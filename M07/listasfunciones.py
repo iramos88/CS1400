@@ -22,4 +22,6 @@ playerNumbers = [5, 2, 6, 13, 0]
 name = "Lucas" 
 num = 7
 
+print(playerNames)
+print(playerNumbers)
 # 4. Use 'insert' para que "Raven" (número 1) sea la primera en la lista:
