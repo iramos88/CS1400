@@ -31,3 +31,14 @@ print(playerNumbers)
 """
 
 #Contadores y Iteradores.
+import random
+
+def Generate_Numbers():
+    numbers = []
+    for i in range(20):
+        num = random.randint(1, 50)
+        numbers.append(num)
+    return numbers
+
+# Llamada a la función
+mis_numeros = Generate_Numbers()
