@@ -11,6 +11,8 @@ print(comidas[1])
 print(mensaje.upper())
 """
 """
+#codigo 1
+
 playerNames = ["Adam", "Bethanie", "Carrie", "Doug", "Eddie"]
 playerNumbers = [5, 2, 6, 13, 0]
 
