@@ -49,3 +49,17 @@ mis_numeros = Generate_Numbers()
 print("Numeros genrados:", mis_numeros)
 """
 #DESAFÍO DE CÓDIGO 2:
+
+def Even_Numbers(lista_origen):
+    even = []
+    # TODO: Itere la lista_origen y agregue a 'even' solo los números pares
+    return even
+
+def Ten_Or_Less(lista_origen):
+    # TODO: Cree una lista vacía, busque valores <= 10 y devuélvala
+    pass
+
+def Calcular_Diferencias(lista_origen):
+    # TODO: Calcule la distancia entre números consecutivos
+    # Ejemplo: [10, 7, 15] -> [3, 8]
+    pass
