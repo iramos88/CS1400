@@ -33,6 +33,7 @@ print(playerNumbers)
 """
 
 #Contadores y Iteradores.
+"""
 import random
 
 def Generate_Numbers():
@@ -44,3 +45,7 @@ def Generate_Numbers():
 
 # Llamada a la función
 mis_numeros = Generate_Numbers()
+
+print("Numeros genrados:", mis_numeros)
+"""
+#DESAFÍO DE CÓDIGO 2:
