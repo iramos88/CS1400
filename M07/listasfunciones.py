@@ -33,7 +33,7 @@ print(playerNumbers)
 """
 
 #Contadores y Iteradores.
-
+"""
 import random
 
 def Generate_Numbers():
@@ -86,3 +86,21 @@ print("Lista original de 20 números:", mis_numeros)
 print("Números menores o iguales a 10:", Ten_Or_Less(mis_numeros))
 print("Números pares:", Even_Numbers(mis_numeros))
 print("Diferencias consecutivas:", Calcular_Diferencias(mis_numeros))
+"""
+#DESAFÍO DE CÓDIGO 3:
+
+#Observa la siguiente matriz 2D que representa un tablero de Tic-Tac-Toe:
+
+#Python
+tictactoe = [
+    ["X", "X", "X"],
+    ["-", "O", "-"],
+    ["O", "-", "-"]
+]
+
+# Escriba el 'if' para detectar si la fila superior (índice 0) tiene tres "X":
+if tictactoe[0][0] == "X" and tictactoe[0][1] == "X" and tictactoe[0][2] == "X":
+    print(tictactoe[0][0], tictactoe[0][1], tictactoe[0][2])
+    print('eres el ganador')
+
+# Pista: Debe revisar las posiciones [0][0], [0][1] y [0][2]
