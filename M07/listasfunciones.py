@@ -1,10 +1,10 @@
 # Manejo de textos y listas
 mensaje = "bienvenido al curso de python"
-comidas = ["tacos", "pizza", "hamburguesa"]
+comidas = ["ceviche", "aji de gallina", "lomo saltado "]
 
 # Mostrar datos
 print(mensaje)
-print(comidas[0])
+print(comidas[1])
 
 # Ejemplo de modificación:
 print(mensaje.upper())
