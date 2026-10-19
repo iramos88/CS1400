@@ -103,3 +103,4 @@ if tictactoe[0][0] == "X" and tictactoe[0][1] == "X" and tictactoe[0][2] == "X":
     print(tictactoe[0][0], tictactoe[0][1], tictactoe[0][2])
     print('eres el ganador')
 # Pista: Debe revisar las posiciones [0][0], [0][1] y [0][2]
+
