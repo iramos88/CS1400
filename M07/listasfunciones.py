@@ -104,3 +104,8 @@ if tictactoe[0][0] == "X" and tictactoe[0][1] == "X" and tictactoe[0][2] == "X":
     print('eres el ganador')
 # Pista: Debe revisar las posiciones [0][0], [0][1] y [0][2]
 
+#¿Qué valor devolvería la instrucción tictactoe[1][1] en el tablero anterior? RESPUESTA: ______0__
+#¿Para qué sirve un print() vacío que se coloca al final de un bucle que imprime una matriz? RESPUESTA:
+#R: Para hacer un salto de línea en la consola (permite que cada fila se imprima de forma separada y ordenada).
+
+
