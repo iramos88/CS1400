@@ -1,5 +1,5 @@
 """Tarea 1: Preparando la Oferta (Listas y Tuplas)
-
+#Isaac Ramos
 """
 
 # Tarea 1: Lista de elementos para el altar de muertos
