@@ -48,6 +48,16 @@ mis_numeros = Generate_Numbers()
 
 print("Numeros genrados:", mis_numeros)
 
+¿Qué tipo de datos se está agregando a la lista numbers? 
+RESPUESTA: _Entero_
+
+¿Cuántos números se están agregando exactamente a la lista? 
+RESPUESTA: __20 numeros es el rango__
+
+¿Qué devuelve (return) la función al final de su ejecución?
+ RESPUESTA: _Devuelve todos los numeros al ejecutarse el sistema.__
+
+
 #DESAFÍO DE CÓDIGO 2:
 
 def Even_Numbers(lista_origen):
