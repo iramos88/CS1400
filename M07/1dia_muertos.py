@@ -6,7 +6,9 @@
 
 # Lista de ofrendas editables (pueden agregarse o quitarse elementos)
 ofrendas = ["Pan de muerto", "Flor de cempasúchil", "Velas", "Calaverita de azúcar"]
-
+ofrendas.append("Incienso copal")
+ofrendas.sort()
+print(ofrendas)
 # Tupla con los niveles tradicionales del altar (constante, no debe cambiar)
 
 NIVELES_ALTAR = ("Cielo", "Tierra", "Inframundo")
