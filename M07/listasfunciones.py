@@ -1,4 +1,5 @@
 # Manejo de textos y listas
+#Isaac Ramos
 """
 Ejecuta el código. ¿Cómo se muestra el texto de la variable mensaje en la consola?
 R. Con la funcion Print, y se muestra en minuscula como esta escrito el mensaje.
