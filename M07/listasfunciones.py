@@ -11,6 +11,24 @@ print(comidas[1])
 print(mensaje.upper())
 """
 """
+Cambia el índice dentro del corchete comidas[0] para mostrar en pantalla la segunda comida de tu lista. ¿Qué número de índice tuviste que utilizar y por qué?
+R.Hice el cambio por el 1, normalmente phyton empieza a contar desde la posicion 0, al poner 1 empieza a contar desde el segundo elemento en este caso seria "pizza"
+Modifica la lista comidas para que incluya tres de tus alimentos favoritos reales y vuelve a imprimir únicamente la segunda opción.
+R.
+Observa las opciones y complete las definiciones. Métodos disponibles: insert, append, remove, pop y clear.
+R.
+¿Qué método elimina todos los elementos de la lista? RESPUESTA: _Clear___
+
+¿Qué método elimina un elemento de la lista por su valor de índice? RESPUESTA: _Remove_
+
+¿Qué método elimina un elemento de la lista usando el valor del elemento? RESPUESTA: _pop_
+
+¿Qué método agrega un elemento al final de la lista? RESPUESTA:  append_
+
+¿Qué método agrega un elemento en una ubicación específica? RESPUESTA:  _insert__
+
+
+"""
 #codigo 1
 
 playerNames = ["Adam", "Bethanie", "Carrie", "Doug", "Eddie"]
