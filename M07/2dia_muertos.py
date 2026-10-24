@@ -30,6 +30,8 @@ altares_familiares = {
 print("Ancestros registrados:", altares_familiares.keys())
 print("Platillos asignados:", altares_familiares.values())
 
+flores_unicas = set(flores_recibidas)
+print("Flores únicas recibidas:", flores_unicas)
 
 
 
