@@ -29,6 +29,11 @@ altares_familiares = {
 
 print("Ancestros registrados:", altares_familiares.keys())
 print("Platillos asignados:", altares_familiares.values())
+
+
+
+
+
 """
 #4. Iteración en Diccionarios: Escribe un bucle for utilizando el método .items()
  para imprimir una frase por cada ancestro.
