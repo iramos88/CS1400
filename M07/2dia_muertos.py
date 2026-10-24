@@ -1,4 +1,5 @@
-"""
+
+#Isaac Ramos
 # Tarea 2: El Registro de los Ancestros (Diccionarios y Conjuntos)
 
 # Tarea 2: Registro de visitas y ofrendas asignadas
@@ -10,10 +11,14 @@ altares_familiares = {
     "Bizabuelo Julio": "Atole de chocolate"
 }
 
+print(list("print_altares" ))
+#print(list(print.altares_familiares.items()))
+#print.items(altares_familiares)
+#print.items(altares_familiares)
 # Lista con flores traídas por los visitantes (contiene duplicados)
 flores_recibidas = ["Cempasúchil", "Nube", "Cempasúchil", "Terciopelo",
  "Nube", "Cempasúchil"]
-
+"""
 #4. Iteración en Diccionarios: Escribe un bucle for utilizando el método .items()
  para imprimir una frase por cada ancestro.
 (Ejemplo de salida esperada: "Para Abuela Coco preparamos: Tamales de dulce").
