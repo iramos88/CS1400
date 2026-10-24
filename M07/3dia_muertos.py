@@ -13,6 +13,8 @@ print("Palabras largas (Tradicional):", largas_tradicional)
 largas_comprehension = [elemento for elemento in calaveritas if len(elemento) > 7]
 print("Palabras largas (Comprehensión de listas):", largas_comprehension)
 
+largas_mayusculas = [elemento.upper() for elemento in calaveritas]
+print("Palabras en mayúsculas:", largas_mayusculas)
 
 """
 #8. Comprensión de Listas (List Comprehension): Re-escribe el bloque de código anterior
