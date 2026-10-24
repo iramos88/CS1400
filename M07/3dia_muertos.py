@@ -33,5 +33,9 @@ print("Diccionario de longitudes:", diccionario_longitud)
 
 #11. Pregunta de análisis: ¿Qué ventaja ofrece escribir la solución con comprensiones
  en lugar de usar un bucle for tradicional con un .append()?
+
+ #R: La ventaja de usar comprensiones es que el código es más conciso y legible,
+ #la ejecucion es mas rapida y nos da la facilidad de poder crear lista y diccionarios en una una sola linea.
+ 
 """
 
