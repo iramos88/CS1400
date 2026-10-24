@@ -1,4 +1,5 @@
 # Tarea 3: Organización de calaveritas y conteo de caracteres
+#Isaac Ramos
 
 calaveritas = ["Alebrije", "Catrina", "Cempasúchil", "Pan de muerto", "Papel picado"]
 
