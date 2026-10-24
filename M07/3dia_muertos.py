@@ -16,6 +16,9 @@ print("Palabras largas (Comprehensión de listas):", largas_comprehension)
 largas_mayusculas = [elemento.upper() for elemento in calaveritas]
 print("Palabras en mayúsculas:", largas_mayusculas)
 
+diccionario_longitud = {elemento: len(elemento) for elemento in calaveritas}
+print("Diccionario de longitudes:", diccionario_longitud)
+
 """
 #8. Comprensión de Listas (List Comprehension): Re-escribe el bloque de código anterior
  en una sola línea utilizando comprensión de listas para crear largas_comprehension.
