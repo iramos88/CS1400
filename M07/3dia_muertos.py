@@ -10,6 +10,9 @@ for elemento in calaveritas:
         largas_tradicional.append(elemento)
 
 print("Palabras largas (Tradicional):", largas_tradicional)
+largas_comprehension = [elemento for elemento in calaveritas if len(elemento) > 7]
+print("Palabras largas (Comprehensión de listas):", largas_comprehension)
+
 
 """
 #8. Comprensión de Listas (List Comprehension): Re-escribe el bloque de código anterior
@@ -25,3 +28,4 @@ print("Palabras largas (Tradicional):", largas_tradicional)
 #11. Pregunta de análisis: ¿Qué ventaja ofrece escribir la solución con comprensiones
  en lugar de usar un bucle for tradicional con un .append()?
 """
+
