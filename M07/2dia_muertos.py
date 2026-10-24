@@ -52,6 +52,4 @@ print("Flores únicas recibidas:", flores_unicas)
 #R: La lista original de flores tenia 6 elementos y al convertirla en un conjunto
 # quedaron 3 elementos, esto se debe a que los conjuntos no permiten elementos duplicados, 
 # por lo que es ideal para la limpieza de datos y evitar contar elementos repetidos.
-
-
 """
