@@ -20,6 +20,14 @@ for  familiar, platillo in altares_familiares.items():
 # Lista con flores traídas por los visitantes (contiene duplicados)
 flores_recibidas = ["Cempasúchil", "Nube", "Cempasúchil", "Terciopelo",
  "Nube", "Cempasúchil"]
+
+altares_familiares = {
+    "Abuela Coco": "Tamales de dulce",
+    "Tío Héctor": "Mole poblano",
+    "Bizabuelo Julio": "Atole de chocolate"
+}
+
+print("Ancestros registrados:", altares_familiares.keys())
 """
 #4. Iteración en Diccionarios: Escribe un bucle for utilizando el método .items()
  para imprimir una frase por cada ancestro.
