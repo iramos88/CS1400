@@ -11,7 +11,9 @@ altares_familiares = {
     "Bizabuelo Julio": "Atole de chocolate"
 }
 
-print(list("print_altares" ))
+for  familiar, platillo in altares_familiares.items():
+    print(f"Para {familiar} preparamos: {platillo}")
+#print(list("print_altares_familiares" ))
 #print(list(print.altares_familiares.items()))
 #print.items(altares_familiares)
 #print.items(altares_familiares)
