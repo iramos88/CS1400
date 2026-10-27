@@ -22,7 +22,7 @@ t.speed(3)         # Velocidad del dibujo (1 es lento, 10 es rápido)
 # TODO 4 para correr el programa hasta este punto y toma una captura de pantalla. Luego lo guardaras entre la carpeta M6
 
 # =============================================================
-# EJEMPLO: Dibujar la base de la casa (un cuadrado azul)
+# EJEMPLO: Dibujar la base de la casa (un cuadrado verde)
 # =============================================================
 
 t.color("darkgreen", "lightgreen")  # (Color del borde, Color de relleno - los puedes ajustar si deseas - TODO 5 los colores son parametros o argumentos?)
