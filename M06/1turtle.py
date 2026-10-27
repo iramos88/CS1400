@@ -29,11 +29,11 @@ t.color("darkgreen", "lightgreen")  # (Color del borde, Color de relleno - los p
 t.begin_fill()
 
 # TODO 6 Este for loop que hace?
-for _ in range(4):
+for _ in range(4):  # Cumple la funcion de repetir el bloque de codigo 4 veces, para poder dibujar el cuadrado.
     t.forward(100)  # Avanza 100 píxeles
-    t.left(90)      # 
+    t.left(90)      # Mueve la tortuga 90 grados a al izquierda.
 
-# TODO 7 En que linea de codigo empezo el fill? o relleno?
+# TODO 7 En que linea de codigo empezo el fill? o relleno? empieza en la limea 29
 t.end_fill()
 
 # Mantiene la ventana abierta hasta que hagas clic en ella
