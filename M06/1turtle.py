@@ -25,12 +25,12 @@ t.speed(3)         # Velocidad del dibujo (1 es lento, 10 es rápido)
 # EJEMPLO: Dibujar la base de la casa (un cuadrado azul)
 # =============================================================
 
-t.color("darkblue", "lightblue")  # (Color del borde, Color de relleno - los puedes ajustar si deseas - TODO 5 los colores son parametros o argumentos?)
+t.color("darkgreen", "lightgreen")  # (Color del borde, Color de relleno - los puedes ajustar si deseas - TODO 5 los colores son parametros o argumentos?)
 t.begin_fill()
 
 # TODO 6 Este for loop que hace?
 for _ in range(4):
-    t.forward(100)  # 
+    t.forward(100)  # Avanza 100 píxeles
     t.left(90)      # 
 
 # TODO 7 En que linea de codigo empezo el fill? o relleno?
