@@ -1,6 +1,7 @@
 """ TODO 1 agregar tu nombre fecha titulo de una manera bonita """
 
 
+
 # Importamos la biblioteca turtle (ya viene incluida en Python)
 import turtle
 
@@ -35,3 +36,5 @@ t.end_fill()
 
 # Mantiene la ventana abierta hasta que hagas clic en ella
 pantalla.exitonclick()
+
+
