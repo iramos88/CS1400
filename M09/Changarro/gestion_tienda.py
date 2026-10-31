@@ -11,9 +11,8 @@
 # TODO #3 Agregar comenantarios a cada función explicando qué hace y cómo funciona.
 
 def agregar_producto(inventario, nombre, precio):
-    """
-   
-    """
+    
+  
     try:
         # Convertimos a float para asegurar que sea un número
         precio_num = float(precio)
