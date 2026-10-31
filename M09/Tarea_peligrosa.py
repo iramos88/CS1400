@@ -84,7 +84,7 @@ def calculadora_segura():
             if op not in ['+', '-', '*', '/']:
                 # TODO 1: Lanza (raise) un ValueError con el mensaje "Operador no válido"
                 raise ValueError("Operador no valido")
-                pass
+                #pass
 
             # Realizar cálculos
             if op == '+':
@@ -106,9 +106,11 @@ def calculadora_segura():
         #     print("❌ Error: Ingrese valores numéricos válidos.")
         except ValueError:
          print("❌ Error: Ingrese valores numéricos válidos.")
+
         # TODO 3: Captura la división por cero
-        except ValueError:
-         print("❌ Error: No se puede dividir entre cero.")
+        except ZeroDivisionError:
+            print("❌ Error: No se puede dividir entre cero.")
+
         # TODO 4: Captura el ValueError (generado por el operador inválido) y muestra e
         except ValueError as e:
             print(f"❌ Error de entrada: {e}")
@@ -118,6 +120,6 @@ def calculadora_segura():
         finally:
             print("🔔intento de calculo finalizado" )
             # TODO 5: Muestra siempre un mensaje de cierre de intento
-            pass
+            #pass
 
 calculadora_segura()
