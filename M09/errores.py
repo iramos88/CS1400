@@ -376,7 +376,7 @@ def verificar():
     aciertos += _revisar("Reto final (a)", lambda: generacion_mas_numerosa(generaciones), 2)
     aciertos += _revisar("Reto final (b)", lambda: total_personajes(generaciones), 16)
     print(f"Resultado: {aciertos} de 9 correctos")
-
+    
 
 # =====================================================================
 # ZONA DE PRUEBAS: descomenta UNA línea a la vez
