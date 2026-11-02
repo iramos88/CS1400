@@ -1,3 +1,5 @@
+
+#Isaac Ramos 
 # gestion_tienda.py
 
 # Este módulo contiene las funciones para gestionar el inventario de la tienda.
@@ -12,6 +14,9 @@
 
 def agregar_producto(inventario, nombre, precio):
     
+    agregar_producto(inventario, "Manzana", 1.50)
+    agregar_producto(inventario, "Pan", 2.00)
+     print ("inventario")
   
     try:
         # Convertimos a float para asegurar que sea un número
