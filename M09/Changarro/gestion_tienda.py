@@ -17,6 +17,7 @@
 def agregar_producto(inventario, nombre, precio):
     """
     Agrega o actualiza un producto en el diccionario de inventario.
+
     Parámetros:
         inventario (dict): Diccionario donde se almacena el inventario (producto: precio).
         nombre (str): Nombre del producto a agregar.
