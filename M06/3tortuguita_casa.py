@@ -32,13 +32,22 @@ import turtle
 #  Iniciar ventana y objeto de tortuga y agregar el speed o velocidad. Pista: Mira la Tarea 1turtle.py
 
 # Escribe aquí tu código
-
+pantalla = turtle.Screen()
+pantalla.bgcolor("lightgreen")
+pantalla.title("Tortuga de Isaac")
+#pantalla.setup(width=400, height=400)
+tortuga = turtle.Turtle()
+tortuga.speed(2)
 # TODO 2
 #  Crea la tortuga usando make_turtle().
+tortuga = turtle.Turtle()
+tortuga.shape("turtle")  # Puedes cambiar la forma de la tortuga si deseas
+tortuga.color("orange")  # Color es opcional.
+
 #  La ventana debe tener 400 de alto y 400 de ancho.
 
 # Escribe aquí tu código
-
+pantalla.setup(width=400, height=400)
 # Captura de Pantalla, nombralo "TUNOMBRE_1_2" y guardalo en la carpeta M06
 
 # ------------------------------------------
@@ -50,7 +59,7 @@ import turtle
 # Observa qué sucede.
 
 # Escribe aquí tu código
-
+tortuga.forward(100)
 
 # ------------------------------------------
 # Girar la tortuga
