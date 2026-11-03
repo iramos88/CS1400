@@ -90,7 +90,9 @@ print("Dibujando un cuadrado...")
 # La tortuga debe terminar donde empezó.
 
 # Escribe aquí tu código
-
+for _ in range(3):  # Repite 4 veces para completar el cuadrado
+    tortuga.forward(100)
+    tortuga.left(90)
 
 # ------------------------------------------
 # Paso EXTRA (opcional)
