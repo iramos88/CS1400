@@ -70,7 +70,9 @@ tortuga.left(90)  # Gira la tortuga 90 grados a la izquierda
 # Luego avanza otros 100 pasos.
 
 # Escribe aquí tu código
-
+for _ in range(3):  # Repite 4 veces para completar el cuadrado
+    tortuga.forward(100)
+    tortuga.left(90)
 
 # ------------------------------------------
 # Dibujar un cuadrado 
