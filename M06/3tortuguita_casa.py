@@ -60,7 +60,7 @@ pantalla.setup(width=400, height=400)
 
 # Escribe aquí tu código
 tortuga.forward(100)
-
+tortuga.left(90)  # Gira la tortuga 90 grados a la izquierda
 # ------------------------------------------
 # Girar la tortuga
 # ------------------------------------------
