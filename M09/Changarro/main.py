@@ -19,7 +19,6 @@ def mostrar_menu():
 def ejecutar_programa():
     # TODO #2 iniciar un diccionario vacio
     mi_inventario = {}
-
     while True:
         mostrar_menu()
         opcion = input("Seleccione una opción (1-4): ")
