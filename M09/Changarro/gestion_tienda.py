@@ -67,9 +67,6 @@ def listar_productos(inventario):
             print(f"• {producto}: ${precio:.2f}")
 
 
-# ==========================================
-# Zona de pruebas (Ejecución principal)
-# ==========================================
 if __name__ == "__main__":
     # Creamos el diccionario vacío donde se guardarán los datos
     inventario = {}
@@ -79,3 +76,5 @@ if __name__ == "__main__":
     agregar_producto(inventario, "Pan", 2.00)
 
     listar_productos(inventario)
+
+    
