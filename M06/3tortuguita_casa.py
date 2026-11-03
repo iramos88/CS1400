@@ -90,7 +90,7 @@ print("Dibujando un cuadrado...")
 # La tortuga debe terminar donde empezó.
 
 # Escribe aquí tu código
-for _ in range(3):  # Repite 4 veces para completar el cuadrado
+for _ in range(1):  # Repite 4 veces para completar el cuadrado
     tortuga.forward(100)
     tortuga.left(90)
 
@@ -103,6 +103,7 @@ for _ in range(3):  # Repite 4 veces para completar el cuadrado
 # - Un triángulo tiene 3 lados.
 # - Un giro completo es 360 grados.
 # - ¿Cuánto debe girar en cada esquina?
+#def dibujar_figura(lados, tamaño, color_borde, color_relleno):
 
 
 # Mantiene la ventana abierta hasta que hagas clic en ella
