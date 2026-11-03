@@ -34,7 +34,7 @@ def run_tests():
     else:
         print("❌ Prueba 4 (Actualizar): FALLADA")
 
-    print("\n--- Fin de las pruebas ---")
+    print("\n--- termino las pruebas ---")
 
 if __name__ == "__main__":
     run_tests()
