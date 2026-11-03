@@ -1,7 +1,7 @@
 """
 TAREA M09: Cazando errores en Macondo
 Herramienta: el depurador (debugger) de VS Code
-Nombre:
+Nombre:Isaac Ramos
 
 En esta tarea el código tiene errores (bugs) escondidos. Tu trabajo NO es
 adivinar: es usar el depurador para ENCONTRAR la causa de cada error, explicarla
