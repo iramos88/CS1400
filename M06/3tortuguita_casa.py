@@ -96,9 +96,11 @@ for _ in range(1):  # Repite 4 veces para completar el cuadrado
 
 # ------------------------------------------
 # Paso EXTRA (opcional)
-# ------------------------------------------
+# ------------------------------------------ aqui.....
 # ¿Puedes agregar un triángulo? y un rectangulo? Dibuja una casita.
-#
+for _ in range(2):  # Repite 3 veces para completar el triangulo
+    tortuga.forward(100)
+    tortuga.left(90)
 # Pista:
 # - Un triángulo tiene 3 lados.
 # - Un giro completo es 360 grados.
