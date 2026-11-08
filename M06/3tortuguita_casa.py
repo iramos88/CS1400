@@ -98,9 +98,24 @@ for _ in range(1):  # Repite 4 veces para completar el cuadrado
 # Paso EXTRA (opcional)
 # ------------------------------------------ aqui.....
 # ¿Puedes agregar un triángulo? y un rectangulo? Dibuja una casita.
+
+for _ in range(lados):
+    tortuga.forward(tamaño)
+    tortuga.left(angulo)
+
+tortuga.end_fill()
+
 for _ in range(2):  # Repite 3 veces para completar el triangulo
     tortuga.forward(100)
     tortuga.left(90)
+    tortuga.penup()
+    tortuga.goto(-150, 0)
+    tortuga.pendown()
+# mover(-150, 0)
+#dibujar_figura(lados=3, tamaño=80,
+   # mover(-150, 0)
+#dibujar_figura(lados=3, tamaño=80,
+#color_borde="darkgreen", color_relleno="lightgreen")
 # Pista:
 # - Un triángulo tiene 3 lados.
 # - Un giro completo es 360 grados.
