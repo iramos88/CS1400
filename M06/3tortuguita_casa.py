@@ -104,7 +104,7 @@ for _ in range(1):  # Repite 4 veces para completar el cuadrado
 # - Un giro completo es 360 grados.
 # - ¿Cuánto debe girar en cada esquina?
 #def dibujar_figura(lados, tamaño, color_borde, color_relleno):
-
+# 
 
 # Mantiene la ventana abierta hasta que hagas clic en ella
 pantalla.exitonclick()
