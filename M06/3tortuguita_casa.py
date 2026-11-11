@@ -105,7 +105,7 @@ for _ in range(lados):
 
 tortuga.end_fill()
 
-for _ in range(2):  # Repite 3 veces para completar el triangulo
+for _ in range(2): 
     tortuga.forward(100)
     tortuga.left(90)
     tortuga.penup()
