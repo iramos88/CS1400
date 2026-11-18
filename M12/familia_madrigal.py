@@ -111,7 +111,10 @@ class Bruno(Madrigal):
     def usar_don(self):
         print(f"🔮 {self.nombre} ve el futuro... pero ¡no hablamos de Bruno!")
         self.gastar_energia(30)
-
+class Abuela(Madrigal):
+    def usar_don(self):
+        print(f"👵 {self.nombre} mantiene unida a la familia con su sabiduría.")
+        self.gastar_energia(20)
 
 # ---------------------------------------------------------------
 # COMPOSICIÓN: la Casita "tiene" una lista de Madrigal
@@ -152,6 +155,7 @@ if __name__ == "__main__":
         Camilo("Camilo", 17),
         Antonio("Antonio", 5),
         Bruno("Bruno", 52),
+        Abuela("Abuela Alma", 75),
     ]
 
     for persona in familia:
